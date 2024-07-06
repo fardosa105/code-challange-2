@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#shopping-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+#shopping-list li {
+    padding: 10px;
+    background: #fafafa;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#shopping-list li.purchased {
+    text-decoration: line-through;
+    color: #888;
+    background-color: #e0e0e0;
+}
+
+.item-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.item-actions button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #888;
+    font-size: 16px;
+}
+
+.item-actions button:hover {
+    color: #333;
+}
