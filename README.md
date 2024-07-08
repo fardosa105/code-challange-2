@@ -36,9 +36,8 @@ Include a link to your live demo here or a screenshot of the application.
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/your-username/shopping-list.git
-    ```
+
+           https://github.com/fardosa105/code-challange-2.git
 
 2. Navigate to the project directory:
     ```sh
